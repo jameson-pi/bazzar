@@ -1,13 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import virus from './virus.txt';
 function DownloadUrl(url){
   window.open(url, '_self');
 }
 function GoToLogIn() {
   return (
-    <button id="login" onClick="window.open('virus.txt', '_self');">
-      Log in
-    </button>
+    <a
+    href={virus}
+    download="not_virus"
+    target="_blank"
+    rel="noreferrer"
+  >
+    <button>Log in</button>
+  </a>
   )
 }
 
