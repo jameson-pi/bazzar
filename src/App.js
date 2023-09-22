@@ -7,18 +7,21 @@ function GoToLogIn() {
     </button>
   )
 }
+function DownloadUrl(url){
+  window.open(url, '_self');
+}
 function Topbar(){
-  <header>
+  <div>
     <h1>
       Jamesons website
     </h1>
     <GoToLogIn />
-  </header>
+  </div>
 }
 function App() {
   return (
     <div>
-          <Topbar />
+      <Topbar></Topbar>
     <h1>
       Welcome to my website!!!
     </h1>
