@@ -3,23 +3,22 @@ import "./App.css";
 const Layout = () => {
   return (
     <>
-      <div class="same-line">
-      <h1>Bazzar</h1>
+      <div class="route">
       <nav>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/"><button class="btn-hover color-1">Bazzar</button></Link>
           </li>
           <li>
-            <Link to="/blogs">Blogs</Link>
+            <Link to="/blogs"><button class="btn-hover color-2">Blogs</button></Link>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <Link to="/contact"><button class="btn-hover color-3">Contact</button></Link>
           </li>
         </ul>
       </nav>
-      <Outlet />
       </div>
+      <Outlet />
     </>
 
   )
