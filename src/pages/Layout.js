@@ -3,6 +3,7 @@ import "./App.css";
 const Layout = () => {
   return (
     <>
+      <div class="same-line">
       <h1>Bazzar</h1>
       <nav>
         <ul>
@@ -17,9 +18,10 @@ const Layout = () => {
           </li>
         </ul>
       </nav>
-
       <Outlet />
-      </>
+      </div>
+    </>
+
   )
 };
 

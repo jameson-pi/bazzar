@@ -8,8 +8,15 @@ h1 {
   border: 2px solid purple;
   background-color: blueviolet;
 }
-
+ul {
+  border: 2px solid purple;
+}
 Link {
   font-family: verdana;
   font-size: 20px;
+}
+.same-line {
+  margin: 2px;
+  display: flex;
+  justify-content: space-between;
 }
