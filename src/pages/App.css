@@ -1,0 +1,15 @@
+body {
+  background-color: lightcoral;
+}
+
+h1 {
+  color: orange;
+  text-align: center;
+  border: 2px solid purple;
+  background-color: blueviolet;
+}
+
+Link {
+  font-family: verdana;
+  font-size: 20px;
+}
